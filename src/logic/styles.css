@@ -1,0 +1,82 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.sidebutton{
+	-fx-background-image:url('../icons/back.png');
+	-fx-background-size: 10px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+}
+.card{
+	-fx-border-radius: 5;
+	-fx-background-radius:5;	
+	-fx-background-color: #e0e0e0;
+}
+
+.topBar{
+    -fx-border-width: 1;
+	-fx-border-style: solid none solid none;
+}
+.bottomBar{
+    -fx-border-width: 1;
+	-fx-border-style: solid none none none;
+}
+.exitButton{
+	-fx-background-image: url('../icons/logout.png');
+	-fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+}
+.imagelable{
+	-fx-background-image: url('../icons/user.png');
+	-fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+}
+.whitelable{
+	-fx-border-radius: 5;
+	-fx-border: 1px;
+	-fx-border-color: BLACK;
+	-fx-background-color: WHITE;
+	-fx-background-radius:5;	
+}
+
+
+.LogInBtn{
+    -fx-background-color: #78909c;
+    -fx-text-fill: #ffffff;
+}
+.LogInBtn:hover{
+    -fx-text-fill: #000000;
+}
+.LogInBtn:pressed{
+    -fx-background-color: linear-gradient(to bottom left, #78909c, #8d6e63);
+    -fx-text-fill: #ffffff;
+}
+.homeBtn{
+    -fx-background-color: #78909c;
+    -fx-text-fill: #ffffff;
+}
+.homeBtn:hover{
+    -fx-text-fill: #000000;
+}
+.homeBtn:pressed{
+    -fx-background-color: linear-gradient(to bottom left, #78909c, #8d6e63);
+    -fx-text-fill: #ffffff;
+}
+.signUpBtn{
+    -fx-background-color: #a7c0cd;
+    -fx-background-radius: 5; 
+    -fx-border-radius: 5;
+    -fx-border-color: #455a64;
+    -fx-text-fill: #ffffff;
+}
+.signUpBtn:hover{
+    -fx-text-fill: #000000;
+}
+.signUpBtn:pressed{
+    -fx-background-color: linear-gradient(to bottom left, #78909c, #8d6e63);
+    -fx-text-fill: #ffffff;
+}
+
+.linear-grad{
+    -fx-background-color: linear-gradient(to bottom left, #78909c, #8d6e63);
+}

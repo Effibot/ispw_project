@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="cardAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="280.0" styleClass="card" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.viewcontroller.CardViewController">
+   <children>
+      <GridPane fx:id="grid" prefHeight="50.0" prefWidth="280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text fx:id="sessionName" strokeType="OUTSIDE" strokeWidth="0.0" text="Session Name" GridPane.halignment="LEFT">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="date" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+               <font>
+                  <Font name="Calibri Light Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="3.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="gymName" strokeType="OUTSIDE" strokeWidth="0.0" text="Gym" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="duration" strokeType="OUTSIDE" strokeWidth="0.0" text="Time" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Calibri Light Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="3.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="description" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" textAlignment="JUSTIFY" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Candara Light Italic" size="15.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </GridPane>
+   </children>
+</AnchorPane>
